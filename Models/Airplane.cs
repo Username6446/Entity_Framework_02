@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Project4
+namespace Project4.Models
 {
     class Airplane
     {
