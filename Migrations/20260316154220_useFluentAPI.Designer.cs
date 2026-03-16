@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project4;
 
@@ -11,9 +12,11 @@ using Project4;
 namespace Project4.Migrations
 {
     [DbContext(typeof(AirportDbContext))]
-    partial class AirportDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260316154220_useFluentAPI")]
+    partial class useFluentAPI
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
