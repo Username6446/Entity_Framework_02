@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4_Music", "..\Projec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project6_Shops", "..\Project6_Shops\Project6_Shops.csproj", "{FEFDAD6A-61FF-412E-BDF5-F124D57763CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project6_DataAccessAirport", "..\Project6_DataAccessAirport\Project6_DataAccessAirport.csproj", "{6D9112AA-BCFA-41C0-90ED-DFFB7ADBAECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportUI_2", "..\AirportUI_2\AirportUI_2.csproj", "{FD7849FD-17D2-441C-810E-F0B18168EAC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FEFDAD6A-61FF-412E-BDF5-F124D57763CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEFDAD6A-61FF-412E-BDF5-F124D57763CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEFDAD6A-61FF-412E-BDF5-F124D57763CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9112AA-BCFA-41C0-90ED-DFFB7ADBAECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9112AA-BCFA-41C0-90ED-DFFB7ADBAECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9112AA-BCFA-41C0-90ED-DFFB7ADBAECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9112AA-BCFA-41C0-90ED-DFFB7ADBAECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7849FD-17D2-441C-810E-F0B18168EAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7849FD-17D2-441C-810E-F0B18168EAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7849FD-17D2-441C-810E-F0B18168EAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7849FD-17D2-441C-810E-F0B18168EAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
